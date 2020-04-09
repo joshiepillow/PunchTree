@@ -5,7 +5,7 @@ using UnityEngine;
 public class WorldGeneration : MonoBehaviour
 {
     //TileBase tile;
-    
+
     // Start is called before the first frame update
     void Start()
     {
