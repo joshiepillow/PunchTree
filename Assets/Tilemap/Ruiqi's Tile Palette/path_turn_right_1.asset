@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: path_turn_right_1
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 66cecf5c57dcd724ab610bf2e874f895, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 739905b71ac9c1e448a226f87f519632, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
