@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Trashy grass
+  m_Name: TurnLeft
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: a71f60cc58830423aa98bea8a362745e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b148fbd4e40e54266a4219abc2270724, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

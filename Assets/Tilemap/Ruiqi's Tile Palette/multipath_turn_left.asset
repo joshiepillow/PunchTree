@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: RightPath
+  m_Name: multipath_turn_left
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 21300000, guid: 0c4699822fcb04824aac26c8a7b94d3a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3131d255c9ec68a4c8ddf2b34a86b79f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1
