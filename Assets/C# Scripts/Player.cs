@@ -20,13 +20,7 @@ public class Player : MonoBehaviour
     {
         int x, y;
         x = y = 0;
-        if (Input.GetMouseButtonDown(0)) {
-            Vector2 pos = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0)) - gameObject.transform.position;
-            GameObject attackObj  = new GameObject("attack");
-            attackObj.transform.position = gameObject.transform.position;
-            attackObj.AddComponent<PlayerAttack>();
-            attackObj.GetComponent<PlayerAttack>().Init(pos);
-        }
+        
         if (Input.GetKey(KeyCode.W)) y += 1;
         if (Input.GetKey(KeyCode.S)) y -= 1;   
         if (Input.GetKey(KeyCode.A)) x -= 1;
@@ -39,5 +33,13 @@ public class Player : MonoBehaviour
             GetComponent<SpriteRenderer>().sprite = Directions[spriteNumber];
         }
         transform.position += new Vector3(x * speed * Time.deltaTime, y * speed * Time.deltaTime, 0);
+
+        if (Input.GetMouseButtonDown(0)) {
+            Vector2 pos = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0)) - gameObject.transform.position;
+            GameObject attackObj  = new GameObject("attack");
+            attackObj.transform.position = gameObject.transform.position;
+            attackObj.AddComponent<PlayerAttack>();
+            attackObj.GetComponent<PlayerAttack>().Init(pos);
+        }
     }
 }
