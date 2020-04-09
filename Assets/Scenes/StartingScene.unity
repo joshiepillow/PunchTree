@@ -1866,7 +1866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 519420031}
-  speed: 3
+  speed: 2.5
   Directions:
   - {fileID: 21300000, guid: adb5a62f75cba463aa394ff496b484fe, type: 3}
   - {fileID: 21300000, guid: 0875122fed3cf49ec953b3449b909554, type: 3}
