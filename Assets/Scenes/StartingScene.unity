@@ -1783,6 +1783,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  Directions:
+  - {fileID: 21300000, guid: adb5a62f75cba463aa394ff496b484fe, type: 3}
+  - {fileID: 21300000, guid: 0875122fed3cf49ec953b3449b909554, type: 3}
+  - {fileID: 21300000, guid: 0f9489ccc2263433495b984e1b924793, type: 3}
+  - {fileID: 21300000, guid: d17cc5dd6a93f484ab6daef70857138d, type: 3}
+  - {fileID: 21300000, guid: 0875122fed3cf49ec953b3449b909554, type: 3}
+  - {fileID: 21300000, guid: b2a44a784141e40bd9d1488e8bb95587, type: 3}
+  - {fileID: 21300000, guid: 7ed8353af3a914e139dadf624c06c769, type: 3}
+  - {fileID: 21300000, guid: 7ed8353af3a914e139dadf624c06c769, type: 3}
+  - {fileID: 21300000, guid: 7ed8353af3a914e139dadf624c06c769, type: 3}
 --- !u!212 &1157235146
 SpriteRenderer:
   m_ObjectHideFlags: 0
