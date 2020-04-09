@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Camera camera;
     public float speed;
     public Sprite[] Directions;
 
@@ -20,7 +21,7 @@ public class Player : MonoBehaviour
         int x, y;
         x = y = 0;
         if (Input.GetMouseButtonDown(0)) {
-            Vector2 pos = Input.mousePosition - gameObject.transform.position;
+            Vector2 pos = camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0)) - gameObject.transform.position;
             GameObject attackObj  = new GameObject("attack");
             attackObj.transform.position = gameObject.transform.position;
             attackObj.AddComponent<PlayerAttack>();
