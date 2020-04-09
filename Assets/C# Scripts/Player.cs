@@ -19,6 +19,11 @@ public class Player : MonoBehaviour
     {
         int x, y;
         x = y = 0;
+        if (Input.GetMouseButtonDown(0)) {
+            GameObject attackObj  = new GameObject("attack");
+            attackObj.transform.position = gameObject.transform.position;
+            attackObj.AddComponent<PlayerAttack>();
+        }
         if (Input.GetKey(KeyCode.W)) y += 1;
         if (Input.GetKey(KeyCode.S)) y -= 1;   
         if (Input.GetKey(KeyCode.A)) x -= 1;
