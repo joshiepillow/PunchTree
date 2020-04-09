@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GlobalFunctions : MonoBehaviour
 {
-    static Vector2 findDirect(float x, float y) {
+    public static Vector2 findDirect(float x, float y) {
         float Hypotenuse = Mathf.Sqrt(Mathf.Pow(x, 2) + Mathf.Pow(y, 2));
         return new Vector2(x/Hypotenuse, y/Hypotenuse);
     }
